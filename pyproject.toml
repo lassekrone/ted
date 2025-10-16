@@ -1,5 +1,5 @@
 [project]
-name = "ted"
+name = "ted-dashboard"  # Change this to something else
 version = "0.1.0"
 description = "TED data collection and postprocessing"
 readme = "README.md"
@@ -10,6 +10,7 @@ dependencies = [
     "pandas>=2.3.1",
     "rapidfuzz>=3.13.0",
     "msal>=1.33.0",
+    "streamlit>=1.40.0",  # Add streamlit if missing
 ]
 
 [dependency-groups]
