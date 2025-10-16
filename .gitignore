@@ -1,10 +1,15 @@
-# Python-generated files
-__pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
-
-# Virtual environments
 .venv
+
+# Large data files
+#*.csv
+*.xlsx
+*.json
+!pyproject.toml
+!cpv_data/*.json
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
